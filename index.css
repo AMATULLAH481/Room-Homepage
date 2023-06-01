@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   background-color: aliceblue;
+}
+.container{
+    display: inline-block;
+}
+.top-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    position: relative;
+}
+.icons{
+    background-color: black;
+    width: 20%;
+    margin-top: -5%;
+}
+.header-text{
+    position: absolute;
+}
+.lower-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
